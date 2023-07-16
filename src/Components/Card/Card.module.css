@@ -1,0 +1,36 @@
+.wrapper{
+    width:160px;
+    height: 232px;
+    /* color: azure;
+    background-color: black;
+    border-radius: 5px; */
+    
+}
+
+.card{
+    width:160px;
+    height:205px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+.title{
+    margin-top: 3px;
+    background-color: var(--color-black);
+    color: white;
+}
+
+.followLikes{
+    padding: 4px 8px 4px 8px;
+    border-radius:10px ;
+    background-color: black;
+    color:white;
+    font-size: 10px;
+    width: max-content;
+    left : 6px;
+    gap: 1px;
+    margin-top: 5px;
+}
+
