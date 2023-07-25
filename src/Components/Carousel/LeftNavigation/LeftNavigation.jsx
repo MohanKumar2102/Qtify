@@ -1,7 +1,7 @@
 import React, { useEffect,useState } from "react";
 import {useSwiper} from "swiper/react";
 import left from "../../../Assets/LeftArrow/left.png";
-
+import styles from "./LeftNavigation.module.css"
 
 function LeftNavigation(){
     const swiper = useSwiper();
@@ -15,7 +15,7 @@ function LeftNavigation(){
     // },[]);
 
     return (
-        <img src={left} onClick={()=>{swiper.slidePrev()}}/>
+        <img className={styles.img}src={left} onClick={()=>{swiper.slidePrev()}}/>
     )
 }
 

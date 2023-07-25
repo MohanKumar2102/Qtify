@@ -27,12 +27,13 @@ function Carousel(props){
             spaceBetween = {50}>
                 <Controls data={data}/>
                 <LeftNavigation/>
-                <RightNavigation/>
                 {
                     data.map(item=>{
                        return <SwiperSlide>{renderComponent(item)}</SwiperSlide>
                     })
                 }
+                <RightNavigation/>
+                
             </Swiper>
         </div>
     );

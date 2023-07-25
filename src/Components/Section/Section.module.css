@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.toggleText{
+    position: relative;
+    left: 1000px;
+    color: green;
+}
+
+.section_card_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Navigation{
+    display: flex;
+    flex-direction: row;
+}
